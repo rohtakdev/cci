@@ -13,7 +13,7 @@ public class StringWithAnyRepeatedCharNoDS {
     		 
     	 }
     	 
-    	if(text.length() > 26){
+    	if(text.length() > 256){
     		return false;
     	}
     	

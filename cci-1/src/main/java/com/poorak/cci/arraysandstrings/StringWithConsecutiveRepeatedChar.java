@@ -11,10 +11,7 @@ public class StringWithConsecutiveRepeatedChar {
 		if(text == null || text.isEmpty()){
 			throw new IllegalArgumentException("text can't be null or empty");
 		}
-		
-		if(text.length() > 26){
-    		return false;
-    	}
+
 		
 		char[] chars = text.toCharArray();
 		char previous = chars[0];
