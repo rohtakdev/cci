@@ -48,8 +48,8 @@ public class StringWithUniqueCharsTest {
 	
 	@Test
 	public void testReallyLongString() {
-		char[] chars = new char[Integer.MAX_VALUE/73];
-		System.out.println(Integer.MAX_VALUE/73 * 2);
+		char[] chars = new char[Integer.MAX_VALUE/1000];
+		System.out.println(Integer.MAX_VALUE/1000 );
 		Arrays.fill(chars, 'a');
 
 		String text = new String(chars);

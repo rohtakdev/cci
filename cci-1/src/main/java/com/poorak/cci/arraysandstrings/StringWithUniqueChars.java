@@ -12,9 +12,7 @@ public class StringWithUniqueChars {
 		if(text ==null || text.isEmpty()){
 			throw new IllegalArgumentException("Null or Empty text");
 		}
-		if(text.length() > 26){
-    		return false;
-    	}
+		
 		char[] chars = text.toCharArray();
 		boolean[] charArray = new boolean[256] ;
 		
